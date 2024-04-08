@@ -2915,9 +2915,16 @@ textarea.w-input, textarea.w-select {
 
 .product-img.bazuca {
   height: 216px;
-  background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65d12600229f4b4e265f23b9_andre-vegetables.webp");
+  background-image: url("./assets/img/bazuca.jpeg");
   background-position: 0 0;
   background-size: cover;
+}
+
+.product-img.vermicompostor {
+  height: 216px;
+  background-image: url("./assets/img/vermicompostor.jpeg");
+  background-position: 50% 43%;
+  background-size: 70%;
 }
 
 .product-img.book {
@@ -4912,8 +4919,8 @@ textarea.w-input, textarea.w-select {
     background-color: var(--neutral--n-98);
     -webkit-text-fill-color: inherit;
     object-fit: fill;
-    background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65d511d625923281da2b30e6_escola.png");
-    background-position: 50% 0;
+    background-image: url("./assets/img/school-garden-02.jpeg");
+    background-position: 50% 33%;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
@@ -4926,12 +4933,6 @@ textarea.w-input, textarea.w-select {
     padding-top: 0;
     padding-bottom: 0;
     display: flex;
-  }
-
-  .service-img-02.book {
-    background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65d511d625923281da2b30e6_escola.png");
-    background-position: 50%;
-    background-size: cover;
   }
 
   .flex-block-5 {
