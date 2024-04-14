@@ -2389,7 +2389,7 @@ textarea.w-input, textarea.w-select {
   color: #192b22;
   text-align: center;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 25px;
 }
 
@@ -2741,14 +2741,26 @@ textarea.w-input, textarea.w-select {
   display: flex;
 }
 
-.frame-2608083 {
+.service-content-text {
   width: 100%;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   display: flex;
+  overflow-y: scroll;
+  height: 206px;
+  padding-bottom: 0.5rem;
+}
+
+.service-content-text::after {
+  content: '';
+  position: absolute;
+  bottom: 114px;
+  width: 300px;
+  height: 25px;
+  background: linear-gradient(rgba(255, 255, 255, 0.005), #fff);
 }
 
 .h6-4 {
@@ -3134,12 +3146,12 @@ textarea.w-input, textarea.w-select {
   background-size: cover;
 }
 
-.caption {
+/* .caption {
   color: #000;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
-}
+} */
 
 .testimonials-section {
   flex-direction: column;
@@ -3213,13 +3225,13 @@ textarea.w-input, textarea.w-select {
   display: flex;
 }
 
-.button-small {
+/* .button-small {
   color: #000;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-}
+} */
 
 .media-img-1 {
   width: 100%;
@@ -3750,6 +3762,25 @@ textarea.w-input, textarea.w-select {
   font-family: Dominique, sans-serif;
   font-size: 18px;
   line-height: 25px;
+  font-weight: 400;
+  color: #060f06;
+}
+
+.button {
+  font-family:Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  position: absolute;
+  z-index: 3;
+  color: #060f06;
+}
+
+.button-small {
+  font-family:Red Hat Display, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 500;
   color: #060f06;
 }
 
@@ -3769,16 +3800,6 @@ textarea.w-input, textarea.w-select {
   color: #060f06;
 }
 
-.button {
-  font-family:Red Hat Display, sans-serif;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 500;
-  position: absolute;
-  z-index: 3;
-  color: #060f06;
-}
-
 .body-small {
   font-family: Red Hat Display, sans-serif;
   font-size: 16px;
@@ -3787,12 +3808,48 @@ textarea.w-input, textarea.w-select {
   color: #060f06;
 }
 
-.title-small {
+.body-small-bold {
+  font-family: Red Hat Display, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #060f06;
+}
+
+.body-extra-small {
+  font-family: Red Hat Display, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #060f06;
+}
+
+.body-extra-small-bold {
+  font-family: Red Hat Display, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #060f06;
+}
+
+.caption {
+  font-family: Red Hat Display, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #060f06;
+}
+
+.white {
+  color: #fff;
+}
+
+/* .title-small {
   color: #000;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-}
+} */
 
 .pd-top-lg {
   padding-top: 8rem;
@@ -4079,23 +4136,23 @@ textarea.w-input, textarea.w-select {
 /* media queries */
 @media screen and (max-width: 479px) {
   .pd-top-lg {
-    padding-top: 8rem;
+    padding-top: 8rem !important;
   }
   
   .pd-bot-lg {
-    padding-bottom: 8rem;
+    padding-bottom: 8rem !important;
   }
   
   .pd-top-md {
-    padding-top: 5rem;
+    padding-top: 5rem !important;
   }
   
   .pd-bot-md {
-    padding-bottom: 5rem;
+    padding-bottom: 5rem !important;
   }
 
   .w-layout-blockcontainer {
-    padding: 8rem 0 0;
+    padding: 0 0;
   }
 
   .text-name {
@@ -4195,11 +4252,11 @@ textarea.w-input, textarea.w-select {
     overflow: hidden;
   }
 
-  .h6 {
+  /* .h6 {
     text-align: left;
     font-family: Sf Pro Display, sans-serif;
     font-weight: 500;
-  }
+  } */
 
   .service-card {
     width: auto;
@@ -4652,7 +4709,7 @@ textarea.w-input, textarea.w-select {
     background-size: cover;
   }
 
-  .caption {
+  /* .caption {
     white-space: normal;
     word-break: normal;
     overflow-wrap: normal;
@@ -4660,7 +4717,7 @@ textarea.w-input, textarea.w-select {
     font-size: 12px;
     font-weight: 400;
     line-height: 17px;
-  }
+  } */
 
   .testimonials-section {
     grid-column-gap: 24px;
@@ -4752,13 +4809,13 @@ textarea.w-input, textarea.w-select {
     padding-bottom: 16px;
   }
 
-  .button-small {
+  /* .button-small {
     text-align: left;
     font-family: Sf Pro Display, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 23px;
-  }
+  } */
 
   .media-section {
     padding-top: 0;
