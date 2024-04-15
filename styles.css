@@ -2322,7 +2322,7 @@ textarea.w-input, textarea.w-select {
 
 .body-2 {
   background-color: #fff;
-  background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65b461d550658bb841d5d4df_Paper.svg");
+  background-image: url("./assets/svgs/Paper.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -4175,7 +4175,7 @@ textarea.w-input, textarea.w-select {
   .body-2 {
     -webkit-text-fill-color: inherit;
     background-color: #fff;
-    background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65a547cc02e35cce2cf0f8c5_Paper-more-width.svg");
+    background-image: url("./assets/svgs/Paper.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: auto;
