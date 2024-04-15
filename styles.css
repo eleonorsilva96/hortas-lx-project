@@ -5201,7 +5201,7 @@ textarea.w-input, textarea.w-select {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     flex-direction: row;
-    padding: 8px;
+    padding: 8px 0;
   }
 
   .link-block, .link-block-2, .link-block-3 {
