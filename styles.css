@@ -2751,16 +2751,16 @@ textarea.w-input, textarea.w-select {
   display: flex;
   overflow-y: scroll;
   height: 206px;
-  padding-bottom: 0.5rem;
+  padding-bottom: 2rem;
 }
 
 .service-content-text::after {
   content: '';
   position: absolute;
-  bottom: 114px;
+  bottom: 100px;
   width: 300px;
-  height: 25px;
-  background: linear-gradient(rgba(255, 255, 255, 0.005), #fff);
+  height: 50px;
+  background: linear-gradient(rgba(255, 255, 255, 0.25), #fff);
 }
 
 .h6-4 {
@@ -4261,8 +4261,7 @@ textarea.w-input, textarea.w-select {
   .service-card {
     width: auto;
     height: auto;
-    min-height: 100%;
-    min-width: 320px;
+    max-width: none;
     border-radius: 24px;
     margin-left: 0;
     margin-right: 0;
@@ -4363,17 +4362,17 @@ textarea.w-input, textarea.w-select {
   }
 
   .services-container {
+    flex-direction: column;
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     object-fit: fill;
-    justify-content: flex-start;
+    align-items: flex-start;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
     position: relative;
-    overflow: auto;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
   }
 
   .slider {
@@ -4422,7 +4421,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .services-card {
-    flex: 0;
+    padding: 0 1rem 0 1rem;
   }
 
   .container-2 {
@@ -5239,6 +5238,23 @@ textarea.w-input, textarea.w-select {
   .remove-margin {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .service-content-text {
+    width: 100%;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    overflow-y: hidden;
+    height: 100%;
+    padding-bottom: 0;
+  }
+  
+  .service-content-text::after {
+    display: none;
   }
 }
 
