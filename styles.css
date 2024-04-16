@@ -3172,6 +3172,11 @@ textarea.w-input, textarea.w-select {
   padding: 16px;
   text-decoration: none;
   display: flex;
+  flex: 1;
+}
+
+.testimonial.hidden {
+  display: none;
 }
 
 .text {
@@ -5181,7 +5186,7 @@ textarea.w-input, textarea.w-select {
     background-color: var(--neutral--n-98);
     -webkit-text-fill-color: inherit;
     object-fit: fill;
-    background-image: url("./assets/img/school-garden-02.jpeg");
+    background-image: url("./assets/img/escola-a-compostar.jpeg");
     background-position: 50% 33%;
     background-repeat: no-repeat;
     background-size: cover;
