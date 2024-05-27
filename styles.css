@@ -4138,6 +4138,10 @@ textarea.w-input, textarea.w-select {
   grid-row-gap: 1rem;
 }
 
+.splide__list .splide__slide {
+  align-self: center;
+}
+
 /* media queries */
 @media screen and (max-width: 479px) {
   .pd-top-lg {
