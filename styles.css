@@ -4632,8 +4632,8 @@ textarea.w-input, textarea.w-select {
   .pill.event-category {
     z-index: 1;
     box-shadow: none;
-    -webkit-backdrop-filter: blur(40px);
-    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     background-color: rgba(183, 225, 183, .48);
     margin-bottom: 16px;
     margin-left: 16px;
