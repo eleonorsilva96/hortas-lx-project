@@ -4021,7 +4021,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .media-img-1.link-2 {
-  background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65d543ca68ae0541e2364c00_observador.png");
+  background-image: url("./assets/img/logo-visao.png");
   background-size: 90px;
 }
 
@@ -4878,13 +4878,13 @@ textarea.w-input, textarea.w-select {
   }
 
   .media-img-1.planeta {
-    background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65cd737b8e91f37ba491c9a4_planeta.webp");
+    background-image: url("./assets/img/logo-visao.png");
     background-position: 50% 0;
     background-size: cover;
   }
 
   .media-img-1.link-2 {
-    background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65d543ca68ae0541e2364c00_observador.png");
+    background-image: url("./assets/img/logo-visao.png");
     background-size: 90px;
   }
 
@@ -4979,6 +4979,43 @@ textarea.w-input, textarea.w-select {
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
   }
+
+  .media-img-4 {
+    min-height: 232px;
+    width: 100%;
+    -webkit-text-fill-color: inherit;
+    background-image: url("./assets/img/entrevista-maluco-beleza.webp");
+    background-size: cover;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.media-img-5 {
+  min-height: 88px;
+  min-width: 107px;
+  -webkit-text-fill-color: inherit;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("./assets/img/dobem-logo.webp");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 67px;
+  background-clip: border-box;
+  border: 0 #000;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 24px;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: stretch;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.media-img-6 {
+  background-image: url("./assets/img/logo-observador.png") !important;
+}
 
   /* .media-img-2.planeta {
     background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65cd737b8e91f37ba491c9a4_planeta.webp");
