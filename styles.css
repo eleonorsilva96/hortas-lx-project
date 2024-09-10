@@ -2237,8 +2237,12 @@ textarea.w-select {
 
 .w-layout-vflex {
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
+}
+
+.w-layout-vflex.social-media {
+  align-items: flex-end;
 }
 
 .align-items-center {
@@ -3861,8 +3865,8 @@ add another class in the same div from scroll content */
 }
 
 .social-media-icons {
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
+  display: flex;
+  padding: 8px 0;
   flex-direction: row;
 }
 
@@ -5331,13 +5335,6 @@ add another class in the same div from scroll content */
     border: 0 #000;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
-  }
-
-  .social-media-icons {
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    flex-direction: row;
-    padding: 8px 0;
   }
 
   .link-block,
