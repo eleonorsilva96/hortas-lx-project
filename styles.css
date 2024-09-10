@@ -28,6 +28,7 @@ audio:not([controls]) {
 
 a {
   background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
 }
 
 a:active, a:hover {
@@ -2751,14 +2752,15 @@ textarea.w-input, textarea.w-select {
   display: flex;
   overflow-y: scroll;
   height: 206px;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
-
-.service-content-text::after {
+/* to manipulate the fade text effect we need to 
+add another class in the same div from scroll content */
+.gradient::after {
   content: '';
   position: absolute;
   bottom: 99px;
-  width: 300px;
+  width: 277px;
   height: 50px;
   background: linear-gradient(rgba(255, 255, 255, 0.25), #fff);
 }
@@ -3846,6 +3848,10 @@ textarea.w-input, textarea.w-select {
   color: #060f06;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .c-primary_20 {
   color: #245723;
 }
@@ -3967,6 +3973,10 @@ textarea.w-input, textarea.w-select {
 
 .values-illustration img {
   width: 530px;
+}
+
+.no-scroll {
+  overflow-y: hidden;
 }
 
 /* media section */
@@ -5323,7 +5333,7 @@ textarea.w-input, textarea.w-select {
     padding-bottom: 0;
   }
   
-  .service-content-text::after {
+  .gradient::after {
     display: none;
   }
 }
