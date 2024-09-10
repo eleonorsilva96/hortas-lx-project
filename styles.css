@@ -3499,6 +3499,7 @@ textarea.w-input, textarea.w-select {
   align-items: center;
   text-decoration: none;
   display: flex;
+  padding: 20px;
 }
 
 .h5 {
@@ -5121,8 +5122,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .team-content {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
   }
 
   .h5 {
