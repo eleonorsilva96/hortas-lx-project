@@ -2275,6 +2275,8 @@ textarea.w-select {
   }
 } */
 
+/* starts here my code - please remove the upper code */
+
 .about-section {
   grid-column-gap: 40px;
   grid-row-gap: 40px;
@@ -2282,6 +2284,14 @@ textarea.w-select {
   justify-content: flex-start;
   align-items: center;
   display: flex;
+}
+
+.hero-section {
+  margin-top: 88px;
+}
+
+.values, .values-illustration {
+  padding-bottom: 120px;
 }
 
 .frame-2608062 {
@@ -2962,12 +2972,15 @@ add another class in the same div from scroll content */
 }
 
 .service-section {
-  flex-direction: column;
+  background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65c9f5828b26da17feabe2d9_Paper%2002.svg");
+  background-position: 0 0;
+  background-size: auto;
+  /* flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  /* margin-left: 8.33333vw;
-  margin-right: 8.33333vw; */
-  display: flex;
+  margin-left: 8.33333vw;
+  margin-right: 8.33333vw;
+  display: flex; */
 }
 
 .services-container {
@@ -3473,7 +3486,7 @@ add another class in the same div from scroll content */
 }
 
 .team-section {
-  background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65d0013fc8a73420b9354fae_Paper%2004.svg");
+  background-image: url("./assets/svgs/green-background.svg");
   background-position: 0 0;
   background-size: auto;
   flex-direction: column;
@@ -4113,7 +4126,7 @@ add another class in the same div from scroll content */
 
 .wrapper {
   position: relative;
-  min-height: 584px;
+  min-height: 620px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -4138,7 +4151,7 @@ add another class in the same div from scroll content */
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   flex-direction: row;
-  align-items: flex-start;
+  justify-content: center;
   margin: 20px 20px;
   position: relative;
 }
@@ -4231,7 +4244,6 @@ add another class in the same div from scroll content */
   display: flex;
   flex-direction: column;
   width: auto;
-  height: 170px;
   background-color: #fff;
   border-bottom-right-radius: 24px;
   border-bottom-left-radius: 24px;
@@ -4289,10 +4301,6 @@ add another class in the same div from scroll content */
 @media screen and (max-width: 479px) {
   .pd-top-lg {
     padding-top: 8rem !important;
-  }
-
-  .pd-bot-lg {
-    padding-bottom: 8rem !important;
   }
 
   .pd-top-md {
@@ -4499,7 +4507,7 @@ add another class in the same div from scroll content */
     padding-bottom: 32px;
   }
 
-  .service-section {
+  /* .service-section {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     background-image: url("https://assets-global.website-files.com/657319437455f7d6f57e1516/65c9f5828b26da17feabe2d9_Paper%2002.svg");
@@ -4511,7 +4519,7 @@ add another class in the same div from scroll content */
     padding-top: 0;
     padding-bottom: 0;
     display: flex;
-  }
+  } */
 
   .services-container {
     position: relative;
