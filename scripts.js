@@ -31,6 +31,7 @@ allAccordionTitles.forEach((accordionTitle) => {
 //Remove or add the arrows on the team slider or news slider between different devices
 const mediaQuery = window.matchMedia("(max-width: 479px)");
 const svgElements = document.querySelectorAll(".volunteer-svg");
+const serviceSection = document.querySelector(".service-section");
 const splideSlider = document.querySelectorAll(".splide-slider");
 const testimonialsSlider = document.getElementById("testimonials-carousel");
 
@@ -41,6 +42,8 @@ function updateSVG(e) {
       svg.setAttribute("width", "500");
       svg.setAttribute("height", "450");
     });
+
+    serviceSection.querySelector(".w-container").classList.remove("pd-bot-lg");
 
     console.log("Mobile!");
   } else {

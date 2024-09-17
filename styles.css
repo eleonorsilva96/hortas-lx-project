@@ -4303,6 +4303,10 @@ add another class in the same div from scroll content */
     padding-top: 8rem !important;
   }
 
+  .pd-bot-lg {
+    padding-bottom: 8rem !important;
+  }
+
   .pd-top-md {
     padding-top: 5rem !important;
   }
