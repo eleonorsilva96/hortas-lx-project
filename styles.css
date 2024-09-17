@@ -2247,6 +2247,7 @@ textarea.w-select {
 
 .align-items-center {
   align-items: center;
+  row-gap: 8px;
 }
 
 .text-align-center {
